@@ -1,0 +1,19 @@
+{
+  "name": "bonita-rest-api",
+  "type": "module",
+  "source": "src/process-instance.js",
+  "exports": {
+    "require": "./dist/process-instance.cjs",
+    "default": "./dist/process-instance.modern.js"
+  },
+  "main": "./dist/process-instance.cjs",
+  "module": "./dist/process-instance.module.js",
+  "unpkg": "./dist/process-instance.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "devDependencies": {
+    "microbundle": "^0.15.1"
+  }
+}
