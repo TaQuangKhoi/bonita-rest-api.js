@@ -1,7 +1,7 @@
 {
   "name": "bonita-rest-api",
   "type": "module",
-  "source": "src/process-instance.js",
+  "source": "src/process-instance.ts",
   "exports": {
     "require": "./dist/process-instance.cjs",
     "default": "./dist/process-instance.modern.js"
